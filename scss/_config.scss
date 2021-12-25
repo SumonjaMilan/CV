@@ -1,0 +1,13 @@
+$dark-bg: #1b1b1b;
+$light-bg: #ffffff;
+$white: white;
+$green: #c8c942;
+$purple: #5f427c;
+$gray-text: #6f6f6f;
+$gray-text-light: #adadad;
+
+@mixin grid($val) {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax($val, 1fr));
+    gap: 1rem;
+}

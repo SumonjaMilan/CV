@@ -1,0 +1,53 @@
+@media (max-width: 768px) {
+    .heading {
+        font-size: 4rem;
+    }
+
+    .navbar {
+        a {
+            i {
+                padding: 0;
+            }
+
+            span {
+                display: none;
+            }
+        }
+    }
+
+    .home {
+        text-align: center;
+        gap: 3rem;
+
+        .image img {
+            height: 30rem;
+            width: 30rem;
+        }
+
+        .content {
+            h3 {
+                font-size: 3rem;
+            }
+
+            span {
+                font-size: 1.875rem;
+            }
+
+            p {
+                max-width: 85%;
+                margin: auto;
+            }
+        }
+    }
+
+    .contact .row form .inputBox input {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 450px) {
+    html {
+        font-size: 70%;
+    }
+}
